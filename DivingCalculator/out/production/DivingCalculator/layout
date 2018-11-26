@@ -1,0 +1,16 @@
+ JFrame profileFrame = new JFrame("Create profile");
+                profileFrame.setVisible(true);
+                GridLayout profileLayout = new GridLayout(3,2);//Using grid layout to combine text boxes, drop down list and buttons
+                profileFrame.setLayout(profileLayout);
+                profileFrame.setSize(400,400);
+                profileFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+
+                profileFrame.add(nameText);
+
+
+
+;//Adding components in parallel groups along horizontal axis and buttons on the bottom
+
+
+                                                                profileFlow.setAutoCreateContainerGaps(true); //Method to create gaps between components and edges of the frame
+                                                                profileFlow.setAutoCreateGaps(true); //Method to create gaps between components
